@@ -24,6 +24,7 @@ url: https://boilercoding.com # the base hostname & protocol for your site, e.g.
 enforce_ssl: boilercoding.com
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: /:title
 
 # Build settings
 markdown: kramdown
