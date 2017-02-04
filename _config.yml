@@ -24,8 +24,14 @@ default-image: logo-big.png # If there is no featured image in a post then this 
 markdown: kramdown
 permalink: /:title/
 # Pagination Settings
-paginate: 9
-paginate_path: '/page/:num'
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Tracker
 analytics: UA-83979019-1
@@ -49,5 +55,10 @@ sass:
 
 # Ruby Gems
 gems:
+  - jekyll-paginate-v2
   - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
