@@ -31,7 +31,7 @@ pagination:
   title: ':title - page :num of :max'
   limit: 0
   sort_field: 'date'
-sort_reverse: true
+  sort_reverse: true
 
 # Tracker
 analytics: UA-83979019-1
