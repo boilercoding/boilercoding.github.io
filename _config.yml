@@ -51,7 +51,3 @@ sass:
 gems:
   - jekyll-seo-tag
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
