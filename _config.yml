@@ -54,7 +54,9 @@ sass:
   style: compressed
 
 # Ruby Gems
-gems: [jekyll-paginate-v2, jekyll-seo-tag]
+gems:
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
