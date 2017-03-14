@@ -51,6 +51,7 @@ footer {
     width: 20px;
 }
 
+
 .quora img{
     width: 17px;
 }
@@ -67,7 +68,6 @@ footer {
 
 .recent {
     padding: 10px;
-    border: 1px solid $grey-color-light;
 }
 
 .post-img img {
@@ -91,5 +91,25 @@ footer {
 }
 
 .media-body a {
-    color: #368FCD;
+    color: #00d4aaff;
+}
+
+.media-body a:hover,
+.media-body a:focus,
+.media-body a:active {
+    color: #002b22ff;
+}
+
+.recent a {
+    color: #00d4aaff;
+}
+
+.recent a:hover,
+.recent a:focus,
+.recent a:active {
+    color: #002b22ff;
+}
+
+.post-title {
+    color: #00d4aaff;
 }

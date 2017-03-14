@@ -1090,8 +1090,9 @@ body {
   font-family: 'Lato', sans-serif, "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 1.6;
-  color: #282c37;
-  background-color: #d9e1e8;
+  color: #002b22ff;
+  background-color: #f9f9f9ff;
+  padding-top: 70px
 }
 input,
 button,
@@ -3122,27 +3123,27 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333333;
 }
 .btn-primary {
-  color: #ffffff;
-  background-color: #2B90D9;
-  border-color: #4582ec;
+  color: #d5fff6ff;
+  background-color: #00d4aaff;
+  border-color: #d5fff6ff;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-  color: #ffffff;
-  background-color: #1863e6;
-  border-color: #1045a1;
+  color: #d5fff6ff;
+  background-color: #00d4aaff;
+  border-color: #00d4aaff;
 }
 .btn-primary:hover {
-  color: #ffffff;
-  background-color: #1863e6;
-  border-color: #175fdd;
+  color: #d5fff6ff;
+  background-color: #002b22ff;
+  border-color: #002b22ff;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #ffffff;
-  background-color: #1863e6;
-  border-color: #175fdd;
+  color: #d5fff6ff;
+  background-color: #00d4aaff;
+  border-color: #00d4aaff;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -4593,7 +4594,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #333333;
 }
 .navbar-inverse {
-  background-color: #2b90d9;
+  background-color: #ffffffff;
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
@@ -4608,17 +4609,17 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #333333;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #333333;
+  color: #00d4aaff;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #002b22ff;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #333333;
+  color: #002b22ff;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -4628,18 +4629,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {
-  border-color: #dddddd;
+  border-color: #00d4aaff;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #dddddd;
+  background-color: #002b22ff;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #cccccc;
+  background-color: #00d4aaff;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #ededed;
+  border-color: #002b22ff;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -4649,10 +4650,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #dddddd;
+    border-color: #00d4aaff;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #dddddd;
+    background-color: #00d4aaff;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #333333;
@@ -4821,14 +4822,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #368FCD;
-  border: 1px solid #dddddd;
+  background-color: #d5fff6ff;
+  border: 1px solid #002b22ff;
   border-radius: 15px;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #4582ec;
+  background-color: #002b22ff;
 }
 .pager .next > a,
 .pager .next > span {
