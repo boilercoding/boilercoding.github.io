@@ -31,14 +31,9 @@ analytics: UA-83979019-1
 disqus-shortname: boilercoding
 
 #social
-facebook: http://facebook.com/Boilercoding-373035779735116
+facebook: http://facebook.com/boilercoding
 twitter: http://twitter.com/@boilercoding
 github: http://github.com/boilercoding
-
-#facebook like box
-fb-app-id: 549480635219583
-fb-page-url: https://www.facebook.com/boilercoding/
-fb-page-title: boilercoding
 
 # Sass style
 sass:
