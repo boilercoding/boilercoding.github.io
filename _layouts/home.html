@@ -4,8 +4,82 @@ layout: default
 
 <div class="home">
   <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>Web Application Development</h1>
+        <p class="lead">Let's build, upgrade or maintain any type of web application.</p>
+    </div> <!-- col-md-12 text-center -->
+  </div> <!-- row -->
+  <div class="row">
     <div class="col-md-12">
-
-    </div> <!-- col-md-8 col-md-offset-2 -->
+      <h1 class="post-title text-center">Projects</h1>
+      <ul class="media-list">
+        <li class="media">
+          <div class="media-left">
+            <img class="media-object img-thumbnail" src="{{site.baseurl}}/images/todo-app.png" alt="Todo List App" width="400px" height="250px">
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">Todo List App</h3>
+            <p>
+              This simple todo list app is made to demonstrate how to use the ruby on rails built in ajax functionality.
+            </p>
+            <p class="btn-group" role="group" aria-label="...">
+              <a href="https://ewravjpz.herokuapp.com" class="btn btn-default" target="_blank">LIVE DEMO</a>
+              <a href="https://github.com/darkdevilish/todo" class="btn btn-default" target="_blank">CODE ON GITHUB</a>
+              <button data-toggle="modal" data-target=".todo-screenshots" class="btn btn-default">SCREENSHOTS</button>
+              <div class="modal fade todo-screenshots" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    {% include todo-carousel.html %}
+                  </div>
+                </div>
+              </div>
+            </p>
+            <h4>
+              <span class="label label-info">Ruby</span>
+              <span class="label label-info">Ruby on Rails</span>
+              <span class="label label-info">HTML</span>
+              <span class="label label-info">CSS</span>
+              <span class="label label-info">Ajax</span>
+              <span class="label label-info">Javascript</span>
+              <span class="label label-info">Jquery</span>
+            </h4>
+          </div>
+        </li>
+        <li class="media">
+          <div class="media-left">
+            <img class="media-object img-thumbnail" src="{{site.baseurl}}/images/githubbers.png" alt="Github API app" width="400px" height="250px">
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">Github API App</h3>
+            <p>
+              Github Api App to Search Github Users and Display Their Information.
+            </p>
+            <p class="btn-group" role="group" aria-label="...">
+              <a href="https://ehtfwios.herokuapp.com" class="btn btn-default" target="_blank">LIVE DEMO</a>
+              <a href="https://github.com/darkdevilish/githubbers" class="btn btn-default" target="_blank">CODE ON GITHUB</a>
+              <button data-toggle="modal" data-target=".githubbers-screenshots" class="btn btn-default">SCREENSHOTS</button>
+              <div class="modal fade githubbers-screenshots" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    {% include githubbers-carousel.html %}
+                  </div>
+                </div>
+              </div>
+            </p>
+            <h4>
+              <span class="label label-info">Ruby</span>
+              <span class="label label-info">Ruby on Rails</span>
+              <span class="label label-info">HTML</span>
+              <span class="label label-info">CSS</span>
+              <span class="label label-info">Ajax</span>
+              <span class="label label-info">Javascript</span>
+              <span class="label label-info">Jquery</span>
+              <span class="label label-info">Bootstrap</span>
+              <span class="label label-info">JSON</span>
+            </h4>
+          </div>
+        </li>
+      </ul>
+    </div> <!-- col-md-12 -->
   </div> <!-- row -->
 </div>

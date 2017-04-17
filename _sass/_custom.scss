@@ -3,6 +3,12 @@
         display: none;
     }
 }
+@media (max-width: 768px) {
+    .media-left img{
+        display: none;
+    }
+}
+
 
 .share-button {
     margin: 0px;
