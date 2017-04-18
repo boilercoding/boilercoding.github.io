@@ -45,22 +45,30 @@ footer {
     list-style: none;
     display: inline;
     margin-left: 10px;
-    padding: 5px 8px;
-    }
+    padding: 15px;
+    border-radius: 100%;
+}
+.social-footer-links {
+    margin-top: 20px;
+}
+.facebook {
+    background-color: darken(#E9EBEE, 10%);
+}
+.github {
+    background-color: #959DA5;
+}
+.twitter {
+    background-color: darken(#E8F4FB, 10%);
+}
 .social:hover {
      opacity: 0.7;
 }
 .social img {
-    width: 50px;
-}
-
-
-.quora img{
-    width: 17px;
+    width: 35px;
 }
 
 .facebook img {
-    width: 40px;
+    width: 30px;
 }
 
 .recent ul {
