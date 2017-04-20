@@ -22,7 +22,7 @@ default-image: logo-big.png # If there is no featured image in a post then this 
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: /blog/:title/
 
 # Tracker
 analytics: UA-83979019-1
