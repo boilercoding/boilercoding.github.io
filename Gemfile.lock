@@ -45,6 +45,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (= 3.3.1)
   jekyll-feed (~> 0.6)
   jekyll-seo-tag (~> 2.1)
 
