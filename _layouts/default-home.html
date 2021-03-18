@@ -4,24 +4,38 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
+    
     <div class="showcase">
       <div class="row">
         <div class="col-md-12 text-center">
+          <img alt="Logo" src="/images/elixir-logo-plain2.svg">
           <div class="jumbotron main-jumbotron">
-            <h1>Got Ideas For A Web Application?</h1>
-            <p class="lead">Let's build, upgrade or maintain any type of web application.</p>
+            <h2>Join The Elixir Army</h2>
+            <div class="col-xs-12 col-lg-4 col-lg-offset-4">
+              <p class="lead space-t">Be part of the amazing elixir community and start learning how to build awesome web applications.</p>
+            </div>
+            <form action="https://formsubmit.io/send/9c9642c3-ed56-4a5d-ba3b-2e4749f62fbc"
+              method="post" id="subscribe-form" class="form-horizontal">
+              <div class="form-group">
+                <div class="col-xs-12 col-lg-4 col-lg-offset-4 space-t">
+                  <label class="control-label" for="email">Email Address</label>
+                </div>
+                <div class="col-xs-12 col-lg-2 col-lg-offset-5">
+                  <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-12 col-lg-2 col-lg-offset-5">
+                  <input type="submit" value="Join" id="subscribe" class="btn btn-lg btn-primary btn-block">
+                  <input name="_formsubmit_id" type="text" style="display:none">
+                  <input type="hidden" name='_redirect' value="https://elixirprogrammer.com/thank-you/" />
+                </div>
+              </div>
+            </form>
           </div>
         </div> <!-- col-md-12 text-center -->
       </div> <!-- row -->
     </div>
-      <div class="container">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </div>
-    {% include footer.html %}
 
 <script async>
     (function() {
